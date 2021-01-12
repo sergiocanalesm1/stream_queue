@@ -1,5 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+With source code on `bin/`, this dart program uses streams to create a queue that recieves tasks asynchronously and executes them synchronously
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
