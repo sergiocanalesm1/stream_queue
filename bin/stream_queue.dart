@@ -55,10 +55,8 @@ class QueueHelper{
       .listen(( event ){
         _controller.sink.add( event );
       }, cancelOnError: false, );
-
     }
   }
-
 }
 
 void main( List<String> arguments ) {
@@ -82,6 +80,4 @@ void main( List<String> arguments ) {
   QueueHelper.administrador();
   QueueHelper.administrador();
   QueueHelper.administrador();
-   //QueueHelper.administrador_carpinteria();
-  //validar que no se ejecute si ya hay una en ejecucion -- encontrar forma de hacer el analogo a synchronize de java
 }
